@@ -91,7 +91,8 @@ getClassDeckLinks()
       });
     });
 
-    console.log(decks);
+    decks.meta = {"version": new Date().getTime()};
+    
     fs.writeFile("./decks.json", JSON.stringify(decks, null, 4), function(err) {
         if(err) {
           console.log(err);

@@ -1,7 +1,8 @@
 {
     "meta": {
         "repository": "https://github.com/pdyck/hearthstone-db.git",
-        "contact": "dev.pdyck@gmail.com"
+        "contact": "dev.pdyck@gmail.com",
+        "version": 1
     },
     "cards": [
       {
